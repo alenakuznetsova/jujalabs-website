@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Java проектое обучение</title>
+
+    <meta name="description" content="java конференция для новичков от juja">
+    <meta name="author" content="JuJaTeam">
+    <meta name="keywords" content="java конференция, java конференция для новичков, juja java конференция, java конференция киев, juja конференция">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="canonical", href="   ">
+
+    <!-- script -->
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+<style type="text/css">
+:root .banner_box,
+:root .adv
+{ display: none !important; }</style></head>
+<body data-spy="scroll" data-target="#site-nav">
+<!--
+Google Tag 
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TWWTLL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TWWTLL');</script>-->
+
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom navbar-solid">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="http://juja.com.ua/">                      
+                        <!-- logo image  -->
+                        <img class="top-logo" src="images/juja_logo.png" alt="тренинг центр juja">
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div><!-- /.navbar-header -->
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- navigation menu -->
+                    <li class=""><a data-scroll="" href="#about">Технологии</a></li>
+                    <li class=""><a data-scroll="" href="#speakers">Процесс</a></li>
+                    <li class=""><a data-scroll="" href="#schedule">Формат</a></li>
+                    <li class=""><a data-scroll="" href="#registration">Стоимость</a></li>
+                    <li class=""><a data-scroll="" href="#faq">FAQ</a></li>
+                    <li class=""><a class="btn button-cta animated visible-md-inline-block visible-lg-inline-block" data-scroll="" type="button" data-toggle="modal" data-target="#regModal">Регистрация</a></li>              
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+            <h2>10 Сентября, 2017 / Онлайн</h2>            
+            <h1>Java проектное обучение 2017</h1>        
+            <p>Для начинающих Java Developer'ов</p>    
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Стек технологий</h3>
+                    <p class="text-justify">С каждой технологией, фреймворком и инструментом вы научитесь работать на практике.</p>                                 
+                </div>
+                <div class="col-sm-4">                    
+                    <ul>
+                        <li>Git</li>
+                        <li>Travis CI</li>
+                        <li>Jetty</li>
+                        <li>Spring Boot</li>
+                        <li>Spring IoC</li>
+                        <li>Spring MVC</li>
+                        <li>Spring Boot Test</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul>                        
+                        <li>Spring RestTemplate</li>
+                        <li>Spring MongoTemplate</li>
+                        <li>JUnit</li>
+                        <li>Mockito</li>
+                        <li>MongoDB</li>
+                        <li>Fakemongo</li>
+                        <li>Lordofthejars</li>                        
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li>Rest-assured</li>
+                        <li>Skyscreamer</li>
+                        <li>Javacrumbs.json-unit</li>
+                        <li>Lombok</li>
+                        <li>Gradle</li>
+                        <li>Swagger</li>
+                        <li>Apache.httpclient</li>
+                        <li>Jbot</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/calendar.png" alt="дата проведения конференции">
+                    <h3>Коммерческий опыт</h3>                
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/kompas.png" alt="место проведения">
+                    <h3>Опыт работы в команде</h3>                
+                </div>
+                <div class="col-sm-4">                
+                    <img src="images/speaker.png" alt="спикеры">
+                    <h3>Реальный проект</h3>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Кому подходит</h3>  
+                    <p class="text-justify">При поступлении на проект каждому кандидату прийдется пройти предварительное интервью с TeachLead, чтобы определить уровень знаний, так как мы заинтересованы в том, чтобы каждый кандидат смог влится в проект и полноценно в нем работать. Если у вас будет недостаточно знаний, вы получите рекомендации, что стоит подтянуть предже чем поступить на проектное обучение.</p>
+                    <p>Основные требования:</p>
+                     <ul>
+                        <li>Java Core</li>
+                        <li>Небольшой опыт или понимание как работает Git</li>
+                        <li>///</li>
+                        <li>***</li>
+                        <li>...</li>
+                    </ul>                                
+                </div>  
+            </div>            
+        </div>
+    </section>
+
+    <section id="schedule" class="section schedule">
+        <span class="schedule"></span>
+        <div class="container">
+            <h3 class="section-title">Как все выглядит:</h3>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2 col-sm-2 col-xs-3 col-lg-2">Работа в команде:</td>
+                        <td>
+                            <ul>
+                                <li>митинги с командой и TeamLead</li>
+                                <li>ревью кода друг другу</li>
+                                <li>ревью вашего кода более опытными разработчиками</li>
+                                <li>deadline</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Workflow работы над задачами</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ТЗ по проекту, общение с Архитекторами</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Работа с GitHub в команде:</td>
+                        <td>
+                            <ul>
+                                <li>сливать</li>
+                                <li>создавать</li>
+                                <li>мерджить</li>
+                                <li>решать конфликты</li>
+                                <li>двигать таски</li>
+                                <li>создавать issues</li>
+                                <li>и т.д.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Современные технологии и подходы:</td>
+                        <td>
+                            <ul>
+                                <li>agile</li>
+                                <li>microservices</li>
+                                <li>docker</li>
+                                <li>и д.р.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>При наличии опыта и желания, возможность участия в создания архитектуры и выбора решения</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="registration" class="section registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Регистрация и Стоимость</h3>
+                </div>
+            </div>                
+
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xs-offset-3 col-sm-offset-4 col-md-offset-4 col-lg-offset-4">
+                <div class="price-box">
+                    <div class="offer-price">
+                        <h1>100 грн
+                        </h1>
+                    </div>
+                    <div class="offer-title">
+                        <h4>СТОИМОСТЬ УЧАСТИЯ</h4>
+                    </div>
+                    <p class="price-text">Взнос за участие идет на аренду зала и покупку вкусняшек</p>
+                    <a class="btn button-cta" type="button" data-toggle="modal" data-target="#regModal">Зарегистрироваться</a>
+                </div>
+            </div>  
+        </div>  
+    </section>
+
+    <section id="contribution" class="section bg-image-2 contribution">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Как принять участие?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="images/calendar.png" alt="дата проведения конференции">
+                    <h3>Зарегистрироваться</h3>                
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/kompas.png" alt="место проведения">
+                    <h3>Пройти собеседование</h3>                
+                </div>
+                <div class="col-sm-3">                
+                    <img src="images/speaker.png" alt="спикеры">
+                    <h3>Получить 14 дней бесплатного доступа</h3>                
+                </div>
+                <div class="col-sm-3">                
+                    <img src="images/speaker.png" alt="спикеры">
+                    <h3>Внести оплату для продолжения</h3>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Ответы на часто задаваемые вопросы:</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Что за проект?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p>Это не один проект, их много и число продолжает расти, все они разрабатываются для JuJa community <a href="https://github.com/JujaLabs/">список проектов</a>. То есть проекты реальные, ими пользуются люди. Ссылку на проект, в разработке которого вы принимали участие всегда можно будет добавить в резюме.   
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Какой график работы над проектом планируется?</a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p>График работы выбирается гибко, есть таски на гите, их надо делать, можно двигаться в своем ритме, единственное ограничение нельзя  сидеть над одной таской больше 2-х недель, и нужно приходить на митинги, как командные так и общие.</p>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> На сколько месяцев рассчитан курс?</a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p>Это не совсем курс, это проекты, которые будут жить очень долго, вы приходите на проект, вникаете в него, получаете таски, делаете, работаете в команде. Время когда остановиться вы выбираете сами, т.е как только понимаете что не боитесь технологий и готовы идти на собеседования. В среднем при нормальном темпе за 3 месяца вы нормально прокачаетесь. после этого срока, часть наших учеников нашла работу на позиции Junior, часть уже работает на позиции Middle.</p>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Отзывы участников</h3>  
+                    <p class="text-justify">При поступлении на проект каждому кандидату прийдется пройти предварительное интервью с TeachLead, чтобы определить уровень знаний, так как мы заинтересованы в том, чтобы каждый кандидат смог влится в проект и полноценно в нем работать. Если у вас будет недостаточно знаний, вы получите рекомендации, что стоит подтянуть предже чем поступить на проектное обучение.</p>
+                    <p>Основные требования:</p>
+                     <ul>
+                        <li>Java Core</li>
+                        <li>Небольшой опыт или понимание как работает Git</li>
+                        <li>///</li>
+                        <li>***</li>
+                        <li>...</li>
+                    </ul>                                
+                </div>  
+            </div>            
+        </div>
+    </section>   
+   
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="social-block">
+                        <li><a href="https://twitter.com/JuJa_team"><img src="images/tw.png" alt="twitter juja"></a></li>
+                        <li><a href="https://www.facebook.com/groups/1396602050670187/"><img src="images/f.png" alt="facebook juja"></a></li>
+                        <li><a href="https://vk.com/club99806179"><img src="images/v.png" alt="vk juja"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCjh8TthLkCRpkH4wWLmQOTQ"><img src="images/y.png" alt="youtube juja"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    JuJa Online Training Center, 2017
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+          <!-- Modal window-->
+            <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <h4 class="modal-title text-center" id="myModalLabel">РЕГИСТРАЦИЯ НА ПРОЕКТОЕ ОБУЧЕНИЕ</h4>                
+                        </div>
+                        <form method="post" action="//juja.us14.list-manage.com/subscribe/post?u=e77b7e6b04a09195607e69680&amp;id=6cd2d7ca04" method="post" id="frmSubscription" name="mc-embedded-subscribe-form" class="validate registration-form" target="_blank">
+                            <div class="modal-body">
+                                <div class="alert"></div>
+                                    <div class="form-group">
+                                        <input type="text" type="text" value="" name="FNAME" class="required form-control" placeholder="Имя" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Фамилия" name="LNAME" class="required form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Электронный адрес" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" pattern="[a-zA-Z0-9._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,3}$" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Телефон" name="PHONE" required size="25"  class="required form-control">
+                                    </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="submit" class="btn btn-primary">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+<script type="text/javascript">
+    setInterval(function(){
+        $('.animated').toggleClass("shake");
+    }, 5000);
+</script>
+<!--
+Facebook Pixel Code
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '412615305777795'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=412615305777795&ev=PageView&noscript=1"
+/></noscript>-->
+
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+@font-face {
+    font-family: AvenirNext-Regular; 
+    letter-spacing: normal;
+    font-stretch: normal;
+    src: url("../../../assets/fonts/AvenirNext-Regular.woff") format('woff');
+}
+
+.b-page {
+	margin:0;
+	padding:0;
+	text-align:center;
+	line-height:1.3;
+	font-family: AvenirNext-Regular, arial;
+	color:#363636;
+}
+
+.b-page__section {
+	padding: 3rem 0;
+}
+
+.b-page__section--header {
+	background: #4CAF50;
+}
+
+.b-page__section--footer {
+	padding: 5rem 0;
+	background-color: #ebebeb;
+	text-align: center;
+}
+
+.b-page__section-mail-btn { 
+	padding: 1rem 0;
+	visibility:hidden;
+}
+
+.u-page-subtitle,
+.u-page-title {
+	color:#fff;
+	font-size:2.4rem;
+	text-align: center;
+}
+
+.u-page-logo { 
+	margin:1rem 1.5rem;
+	text-align: center;
+}
+
+.u-page-mail-logo { 
+	height:100px; 
+	margin-top: 30px;
+}
+
+.u-page-mail-btn { 
+	margin-top:10px;
+	height:40px;
+	width:80%;
+	background:#00c853;
+	color:#fff;
+	border:1px solid #000;
+	border-radius:4px;
+	text-decoration:none;
+	font-size:15px;
+	padding:15px;
+}
+
+.u-page-mail-btn:hover{
+	box-shadow:0 0 10px rgba(0,0,0,.5);
+	overflow:hidden;
+	text-decoration:none;
+	color:#000;
+	background:#00e676;
+}
+
+.u-section-content--title{
+	font-size:1.8rem;
+	font-weight:700;
+}
+
+.u-section-content{
+	font-size:1.8rem;
+	text-align:justify;
+}
+
+.u-section-content--point{
+	text-align:center;
+	margin-left:0;
+}
+.u-section-contact{
+	font-size:2rem;
+	color:#000;
+	text-decoration:none;
+}
+@media (min-width:750px){
+	.u-section-content{
+		font-size:1.8rem;
+	}
+
+	.b-page__section-mail-btn{
+		padding:1rem 0;
+		visibility:visible;
+	}
+
+	.u-page-mail-btn{
+		font-size:10px
+		;padding:8px;
+	}
+
+	.u-section-content--point{
+		margin-left:0;
+	}
+}
+@media (min-width:1200px){
+	.u-section-content{
+		font-size:2rem;
+	}
+
+	.b-page__section-mail-btn{
+		padding:3rem 0;
+		visibility:visible;
+	}
+
+	.u-section-content--point{
+		margin-left:6rem;
+	}
+}
+
+@media (min-width:1500px){
+	.u-section-content{
+		font-size:2rem;
+	}
+
+	.b-page__section-mail-btn{
+		padding:3rem 0;
+		visibility:visible;
+	}
+	.u-section-content--point{
+		margin-left:6rem;
+	}
+}
+
+.social-widgets, .social-header {
+	margin-top:30px;
+
+}
+
+.social {
+	height: 250px;
+}
+
+.social-vk {
+	margin: auto;
+}
