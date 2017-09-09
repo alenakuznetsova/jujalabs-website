@@ -61,9 +61,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- navigation menu -->
-                    <li class=""><a data-scroll="" href="#about">Начем кодим ?</a></li>
-                    <li class=""><a data-scroll="" href="#speakers">Для кого ?</a></li>
+                    <li class=""><a data-scroll="" href="#project">Что за проект ?</a></li>
+                    <li class=""><a data-scroll="" href="#howtocode">Начем кодим ?</a></li>
                     <li class=""><a data-scroll="" href="#schedule">Как кодим ?</a></li>
+                    <li class=""><a data-scroll="" href="#speakers">Для кого ?</a></li>
                     <li class=""><a data-scroll="" href="#registration">Стоимость</a></li>
                     <li class=""><a data-scroll="" href="#faq">FAQ</a></li>
                     <li class=""><a class="btn button-cta animated visible-md-inline-block visible-lg-inline-block" data-scroll="" type="button" data-toggle="modal" data-target="#regModal">Регистрация</a></li>              
@@ -74,20 +75,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <header id="site-header" class="site-header valign-center"> 
         <div class="intro">
-            <h2>15 Сентября, 2017 / Онлайн</h2>            
             <h1>Обучение Java на реальном проекте</h1>        
+            <h2>15 Сентября 2017 / Онлайн</h2>            
         </div>
     </header>
 
-    <section id="about" class="section about">
+    <section id="project" class="section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h3 class="section-title">Пример технологий которые мы используем: </h3>
-                    <p class="text-justify">Все эти технологии Вы применяете на практике  в наших проектах</p>                                 
+                    <h3 class="section-title">Что пишем : </h3>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="https://raw.githubusercontent.com/JujaLabs/docs/master/architecture/juja_platform.png" class="img-responsive" alt="Responsive image"> 
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="howtocode" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Как кодим : </h3>
+                </div>
+
                 <div class="col-sm-4">
-                    <p> На чем кодим: </p>                    
+                    <p class="font-700"> С чем работаем : </p>                    
                     <ul>
                         <li>Java</li>
                         <li>Spring Boot</li>
@@ -103,7 +119,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </ul>
                 </div>
                 <div class="col-sm-4">
-                    <p> Как собираем и деплоим: </p>
+                    <p class="font-700"> Как собираем и деплоим: </p>
                     <ul>
                         <li>Gradle</li>
                         <li>Git Workflow </li>                        
@@ -114,7 +130,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </ul>
                 </div>
                 <div class="col-sm-4">
-                   <p> Как тестируем: </p>  
+                   <p class="font-700"> Мы любим тесты и пишем unit, integration и acceptance тесты: </p>  
                     <ul>
                         <li>JUnit</li>
                         <li>Mockito</li>
@@ -131,48 +147,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </section>
 
-    <section id="facts" class="section bg-image-1 facts text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="images/calendar.png" alt="">
-                    <h3>Участие в проектах = Коммерческий опыт</h3>                
-                </div>
-                <div class="col-sm-4">
-                    <img src="images/kompas.png" alt="">
-                    <h3>Опыт работы в команде над production проектом</h3>                
-                </div>
-                <div class="col-sm-4">                
-                    <img src="images/speaker.png" alt="">
-                    <h3>Проекты о которых можно и нужно рассказывать на собеседовании</h3>                
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="speakers" class="section speakers">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title"> Для кого ? </h3>  
-                    <p class="text-justify"> При поступлении на проект каждому кандидату прийдется пройти предварительное интервью с TeachLead, чтобы определить уровень знаний. </p>
-                    <p class="text-justify"> Мы заинтересованы в том, чтобы каждый кандидат смог влится в проект и полноценно на нем учиться. </p>
-                    <p class="text-justify"> Если у вас будет недостаточно знаний, вы получите рекомендации, что стоит подтянуть предже чем поступить на проектное обучение.</p>
-                    <p>Основные требования:</p>
-                     <ul>
-                        <li>Знание Java Core</li>
-                        <li>Опыт работы с Java EE и Java frameworks</li>
-                        <li>Опыт или понимание как работает Git</li>
-                    </ul>                                
-                </div>  
-            </div>            
-        </div>
-    </section>
-
-    <section id="schedule" class="section schedule">
+<section id="schedule" class="section schedule">
         <span class="schedule"></span>
         <div class="container">
-            <h3 class="section-title">Как все выглядит:</h3>
+            <h3 class="section-title">Какой процесс разработки :</h3>
             <table class="table table-striped">
                 <tbody>
                     <tr>
@@ -188,11 +166,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </tr>
                     <tr>
                         <td>Workflow работы над задачами</td>
-                        <td></td>
-                    </tr>
-                    <tr>
                         <td>ТЗ по проекту, общение с Архитекторами</td>
-                        <td></td>
                     </tr>
                     <tr>
                         <td>Работа с GitHub в команде:</td>
@@ -229,26 +203,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </section>
 
-    <section id="registration" class="section registration">
+    <section id="speakers" class="section speakers">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Регистрация и Стоимость</h3>
-                </div>
-            </div>                
+                    <h3 class="section-title"> Кому подойдет: </h3>  
+                    <p class="font-700">
+                        Для всех кто задает себе такие вопросы:
+                          <ul>
+                            <li> что добавить в резюме, если в нем пусто ?  </li>
+                            <li> о чем мне рассказывать на собеседовании ?  </li>
+                            <li> как получить опыт работы на реальном проекте ?  </li>
+                            <li> как прокачать скиллы в технологиях ?  </li>
+                            <li> как получить опыт работы в команде ?  </li>
+                            <li> как сделать больше чем просто pet проект ?  </li>
+                            <li> где набраться уверенности в своих знаниях и оценить свой опыт ?  </li>
+                        </ul>
+                    </p>
+                   
+                    <p class="text-justify font-400">                              
+                        Перед началом, нужно пройти маленькое интервью с TeamLead.
+                       <br> На нем мы поможем определить уровень знаний и максимально эффективно проложить свой в путь в обучении. 
+                    </p>
+          
+                    <p class="font-700">Наш идеальный кандидат:</p>
+                     <ul>
+                        <li>Уверенно знает Java Core</li>
+                        <li>Имеет небольшой опыт с Java EE и Java frameworks</li>
+                        <li>Делал свои pet-проекты</li>
+                        <li>Пробовал писать по TDD</li>
+                        <li>Разбирался как работать с Git</li>
+                    </ul> 
 
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xs-offset-3 col-sm-offset-4 col-md-offset-4 col-lg-offset-4">
-                <div class="price-box">
-                    <div class="offer-price">
-                        <h2>2000 грн</h2>
-                    </div>
-                    <div class="offer-title">
-                        <h4>Стоимость в месяц</h4>
-                    </div>
-                    <a class="btn button-cta" type="button" data-toggle="modal" data-target="#regModal">Зарегистрироваться</a>
-                </div>
-            </div>  
-        </div>  
+                    <p class="font-400"> Мы заинтересованы в том, чтобы каждый смог влится в проект и вырасти как разработчик. </p>                               
+                </div>  
+            </div>            
+        </div>
     </section>
 
     <section id="contribution" class="section bg-image-2 contribution">
@@ -278,6 +268,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
     </section>
+
+    
+
+    <!--<section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/calendar.png" alt="">
+                    <h3>Участие в проектах = Коммерческий опыт</h3>                
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/kompas.png" alt="">
+                    <h3>Опыт работы в команде над production проектом</h3>                
+                </div>
+                <div class="col-sm-4">                
+                    <img src="images/speaker.png" alt="">
+                    <h3>Проекты о которых можно и нужно рассказывать на собеседовании</h3>                
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <section id="registration" class="section registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Регистрация и Стоимость</h3>
+                </div>
+            </div>                
+
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xs-offset-3 col-sm-offset-4 col-md-offset-4 col-lg-offset-4">
+                <div class="price-box">
+                    <div class="offer-price">
+                        <h2>2000 грн</h2>
+                    </div>
+                    <div class="offer-title">
+                        <h4>Стоимость в месяц</h4>
+                    </div>
+                    <a class="btn button-cta" type="button" data-toggle="modal" data-target="#regModal">Зарегистрироваться</a>
+                </div>
+            </div>  
+        </div>  
+    </section>
+
 
     <section id="faq" class="section faq">
         <div class="container">
@@ -360,7 +394,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <ul class="social-block">
                         <li><a href="https://twitter.com/JuJa_team"><img src="images/tw.png" alt="twitter juja"></a></li>
                         <li><a href="https://www.facebook.com/groups/1396602050670187/"><img src="images/f.png" alt="facebook juja"></a></li>
-                        <li><a href="https://vk.com/club99806179"><img src="images/v.png" alt="vk juja"></a></li>
                         <li><a href="https://www.youtube.com/channel/UCjh8TthLkCRpkH4wWLmQOTQ"><img src="images/y.png" alt="youtube juja"></a></li>
                     </ul>
                 </div>
