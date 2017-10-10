@@ -19,12 +19,12 @@
 }
 
 .b-page__section--header {
-	background:#00c853;
+	background: #4DB6AC;
 }
 
 .b-page__section--footer {
 	padding: 5rem 0;
-	background-color: #ebebeb;
+	background-color: #E0F2F1;
 	text-align: center;
 }
 
@@ -53,8 +53,8 @@
 .u-page-mail-btn { 
 	margin-top:10px;
 	height:40px;
-	width:80%;
-	background:#00c853;
+	width:60%;
+	background:#009688;
 	color:#fff;
 	border:1px solid #000;
 	border-radius:4px;
@@ -68,7 +68,7 @@
 	overflow:hidden;
 	text-decoration:none;
 	color:#000;
-	background:#00e676;
+	background:#26A69A;
 }
 
 .u-section-content--title{
@@ -102,8 +102,8 @@
 	}
 
 	.u-page-mail-btn{
-		font-size:10px
-		;padding:8px;
+		font-size:10px;
+		padding:8px;
 	}
 
 	.u-section-content--point{
@@ -112,29 +112,36 @@
 }
 @media (min-width:1200px){
 	.u-section-content{
-		font-size:2rem;
+		font-size: 2rem;
 	}
 
 	.b-page__section-mail-btn{
-		padding:3rem 0;
+		padding: 3rem 0;
 		visibility:visible;
 	}
 
+	.u-page-mail-btn {
+		font-size: 16px;
+	}
+
 	.u-section-content--point{
-		margin-left:6rem;
+		margin-left: 6rem;
 	}
 }
 
 @media (min-width:1500px){
 	.u-section-content{
-		font-size:2rem;
+		font-size: 2rem;
 	}
 
 	.b-page__section-mail-btn{
-		padding:3rem 0;
-		visibility:visible;
+		padding: 3rem 0;
+		visibility: visible;
 	}
 	.u-section-content--point{
-		margin-left:6rem;
+		margin-left: 6rem;
+	}
+	.u-page-mail-btn {
+		font-size: 16px;
 	}
 }
